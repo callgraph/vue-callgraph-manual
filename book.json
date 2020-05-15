@@ -1,7 +1,25 @@
 {
+    "plugins": [
+        "chapter-fold",
+        "code",
+        "search-pro",
+        "github",
+        "localized-footer",
+        "ancre-navigation",
+        "-sharing"
+    ],
     "pluginsConfig": {
         "theme-default": {
-             "showLevel": true
+            "showLevel": true
+        },
+        "github": {
+            "url": "https://github.com/callgraph/vue-callgraph-manual"
+        },
+        "localized-footer": {
+            "filename": "js/comment.html"
         }
+    },
+    "styles": {
+        "website": "gitbook/website.css"
     }
 }
